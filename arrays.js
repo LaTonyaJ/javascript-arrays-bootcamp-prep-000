@@ -10,8 +10,8 @@ var cities = ['New York', 'San Francisco'];
 ['Philadelphia',...cities];
 
 function addElementToBeginningOfArray(array, element){
-  array = []
-  element = array.unshift()
+  array = [];
+  [element,...array]
   return array
 }
 
