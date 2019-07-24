@@ -11,9 +11,9 @@ var cities = ['New York', 'San Francisco'];
 
 function addElementToBeginningOfArray(array, element){
   return [element,...array]
-  
 }
 
-function destructivelyAddElementToBeginningOfArray(){
-  
+function destructivelyAddElementToBeginningOfArray(array, element){
+  [element,...array]
+  return array 
 }
